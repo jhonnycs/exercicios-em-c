@@ -12,7 +12,7 @@ int main() {
 
     float fahrenheit = 9 * celsius / 5 + 32;
 
-    printf("%.1f °C equivale a %.1f °F", celsius, fahrenheit);
+    printf("\n%.1f °C equivale a %.1f °F", celsius, fahrenheit);
 
     return 0;
 }

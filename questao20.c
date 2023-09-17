@@ -15,7 +15,7 @@ int main() {
 
     float novelosPorBlusa = quantNovelos / (float)quantBlusas;
 
-    printf("Cada blusa usa um total de %.2f novelos", novelosPorBlusa);
+    printf("\nCada blusa usa um total de %.2f novelos", novelosPorBlusa);
 
     return 0;
 }

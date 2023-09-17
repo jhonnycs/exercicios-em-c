@@ -15,7 +15,7 @@ int main() {
     
     float area = PI * pow(R, 2);
 
-    printf("A área da pizza é: %.2f", area);
+    printf("\nA área da pizza é: %.2f", area);
 
     return 0;
 }

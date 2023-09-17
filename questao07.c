@@ -15,7 +15,7 @@ int main() {
 
     float precoAPagar = precoQuilo * peso;
 
-    printf("Você terá que pagar R$ %.2f", precoAPagar);
+    printf("\nVocê terá que pagar R$ %.2f", precoAPagar);
 
     return 0;
 }

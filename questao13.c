@@ -21,7 +21,7 @@ int main() {
     int dezena = num % 100 / 10;
     int unidade = num % 100 % 10;
 
-    printf("CENTENA = %d, ", centena);
+    printf("\nCENTENA = %d, ", centena);
     printf("DEZENA = %d, ", dezena);
     printf("UNIDADE = %d", unidade);
 

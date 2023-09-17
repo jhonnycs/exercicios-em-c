@@ -15,7 +15,7 @@ int main() {
 
     float litros = valorPago / precoLitro;
 
-    printf("Você abasteceu seu veículo com %.2f litros de gasolina", litros);
+    printf("\nVocê abasteceu seu veículo com %.2f litros de gasolina", litros);
     
     return 0;
 }

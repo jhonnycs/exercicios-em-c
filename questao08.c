@@ -15,7 +15,7 @@ int main() {
 
     int diasPassados = (mes - 1) * 30 + dia - 1;
 
-    printf("Se passaram %d dias desde o início do ano", diasPassados);
+    printf("\nSe passaram %d dias desde o início do ano", diasPassados);
 
     return 0;
 }

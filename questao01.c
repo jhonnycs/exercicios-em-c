@@ -16,7 +16,7 @@ int main() {
     A = B;
     B = C;
 
-    printf("O valor de A é %d\n", A);
+    printf("\nO valor de A é %d\n", A);
     printf("O valor de B é %d", B);
     
     return 0;

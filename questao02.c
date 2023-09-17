@@ -15,7 +15,7 @@ int main() {
 
     int area = lado1 * lado2;
 
-    printf("A área do terreno é %d", area);
+    printf("\nA área do terreno é %d", area);
     
     return 0;
 }

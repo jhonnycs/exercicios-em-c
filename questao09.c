@@ -23,7 +23,7 @@ int main() {
     float valorArrecadado = quantP * precoP + quantM * precoM +
                             quantG * precoG;
 
-    printf("O valor total que foi arrecadado foi R$ %.2f", valorArrecadado);
+    printf("\nO valor total que foi arrecadado foi R$ %.2f", valorArrecadado);
 
     return 0;
 }

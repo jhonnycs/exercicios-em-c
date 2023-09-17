@@ -22,7 +22,7 @@ int main() {
     float valorTotal = quant5c * 0.05 + quant10c * 0.1 + 
                        quant25c * 0.25 + quant50c * 0.5 + quant1r;
 
-    printf("O valor total é R$ %.2f", valorTotal);
+    printf("\nO valor total é R$ %.2f", valorTotal);
 
     return 0;
 }

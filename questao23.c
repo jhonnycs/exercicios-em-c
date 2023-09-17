@@ -15,7 +15,7 @@ int main() {
     float litrosAgua = 0.8 * quantRefresco;
     float litrosSuco = 0.2 * quantRefresco;
     
-    printf("Serão usados %.2f litros de água e ", litrosAgua);
+    printf("\nSerão usados %.2f litros de água e ", litrosAgua);
     printf("%.2f litros de suco", litrosSuco);
 
     return 0;

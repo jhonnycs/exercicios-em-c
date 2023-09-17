@@ -25,7 +25,7 @@ int main() {
                         quant600ml * garrafa600ml +
                         quant2L * garrafa2L;
 
-    printf("Foram comprados %.2f litros de refrigerante", totalLitros);
+    printf("\nForam comprados %.2f litros de refrigerante", totalLitros);
 
     return 0;
 }

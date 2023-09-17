@@ -17,7 +17,7 @@ int main() {
 
     float gastoTotal = quantFrangos*(precoAnelAlimento * 2 + precoAnelId);
 
-    printf("O gasto total com os anéis foi de R$ %.2f", gastoTotal);
+    printf("\nO gasto total com os anéis foi de R$ %.2f", gastoTotal);
 
     return 0;
 }

@@ -13,7 +13,7 @@ int main() {
 
     int idadeEmDias = idade * 365;
 
-    printf("Você já viveu pouco mais de %d dias", idadeEmDias);
+    printf("\nVocê já viveu pouco mais de %d dias", idadeEmDias);
     
     return 0;
 }

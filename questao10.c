@@ -20,7 +20,7 @@ int main() {
     d = pow((xB - xA), 2) + pow((yB - yA), 2);
     d = sqrt(d);
     
-    printf("A distância entre os pontos A(%.1f, %.1f) e ", xA, yA);
+    printf("\nA distância entre os pontos A(%.1f, %.1f) e ", xA, yA);
     printf("B(%.1f, %.1f) é %.2f", xB, yB, d);
 
     return 0;

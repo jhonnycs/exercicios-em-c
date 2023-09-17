@@ -14,7 +14,7 @@ int main() {
     meses = diasT % 365 / 30;
     dias = diasT % 365 % 30;
 
-    printf("Se passaram %d anos, %d meses e %d dias", anos, meses, dias);
+    printf("\nSe passaram %d anos, %d meses e %d dias", anos, meses, dias);
 
     return 0;
 }
