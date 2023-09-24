@@ -7,15 +7,21 @@
     anéis recebendo a quantidade de frangos.
 */
 
+#define PRECO_ANEL_ID 4
+#define PRECO_ANEL_ALIMENTO 3.5
+
 int main() {
     int quantFrangos;
-    float precoAnelId = 4;
-    float precoAnelAlimento = 3.5;
 
     printf("Digite a quantidade de frangos da granja:\n> ");
     scanf("%d", &quantFrangos);
 
-    float gastoTotal = quantFrangos*(precoAnelAlimento * 2 + precoAnelId);
+    while (quantFrangos <= 0) {
+        printf("Digite uma quantidade válida de frangos:\n> ");
+        scanf("%d", &quantFrangos);
+    }
+
+    float gastoTotal = quantFrangos*(PRECO_ANEL_ALIMENTO * 2 + PRECO_ANEL_ID);
 
     printf("\nO gasto total com os anéis foi de R$ %.2f", gastoTotal);
 

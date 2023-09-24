@@ -17,6 +17,17 @@ int main() {
     scanf("%d", &anoNasc);
     printf("Digite o ano atual:\n> ");
     scanf("%d", &anoAtual);
+
+    while (anoNasc > anoAtual) {
+        printf("\nVocê digitou algum ano errado. Como não é possível\n");
+        printf("saber qual foi, peço que você digite os anos novamente:\n\n");
+        
+        printf("Digite o seu ano de nascimento:\n> ");
+        scanf("%d", &anoNasc);
+        
+        printf("Digite o ano atual:\n> ");
+        scanf("%d", &anoAtual);
+    }
     
     int idadeAnos = anoAtual - anoNasc;
     int idadeMeses = idadeAnos * 12;

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     Receber o número de horas trabalhadas, o valor do salário mínimo
@@ -15,16 +14,39 @@ int main() {
     int horasTrabalhadas, horasExtrasTrabalhadas;
     float valorHoraTrabalhada, salarioMinimo;
 
-    printf("Digite a porcentagem do salário mínimo que a hora extra vale:\n> ");
+    printf("Digite a porcentagem do salário mínimo que a hora trabalhada vale:\n> ");
     scanf("%f", &valorHoraTrabalhada);
     // estou solicitando ao usuário porque na questão não diz quanto é
+
+    while (valorHoraTrabalhada <= 0) {
+        printf("Digite uma porcentagem válida para o valor da hora trabalhada:\n> ");
+        scanf("%f", &valorHoraTrabalhada);        
+    }
+    
     printf("Digite o número de horas trabalhadas:\n> ");
     scanf("%d", &horasTrabalhadas);
+
+    while (horasTrabalhadas > 0) {
+        printf("Digite um número válido de horas trabalhadas:\n> ");
+        scanf("%d", &horasTrabalhadas);        
+    }    
+
     printf("Digite o número de horas extras trabalhadas:\n> ");
     scanf("%d", &horasExtrasTrabalhadas);
+    
+    while (horasExtrasTrabalhadas < 0) {
+        printf("Digite um número válido de horas extras trabalhadas:\n> ");
+        scanf("%d", &horasExtrasTrabalhadas);
+    }
+    
     printf("Digite o valor do salário mínimo:\n> ");
     scanf("%f", &salarioMinimo);
 
+    while (salarioMinimo <= 0) {
+        printf("Digite um salário mínimo válido:\n> ");
+        scanf("%f", &salarioMinimo);
+    }
+    
     valorHoraTrabalhada = valorHoraTrabalhada / 100 * salarioMinimo;
     float valorHoraExtra = 0.014 * salarioMinimo;
 

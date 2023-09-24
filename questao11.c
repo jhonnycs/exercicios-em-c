@@ -9,6 +9,11 @@ int main() {
     
     printf("Digite quantos dias se passaram:\n> ");
     scanf("%d", &diasT);
+
+    while (diasT < 0) {
+        printf("Digite uma quantidade válida de dias:\n> ");
+        scanf("%d", &diasT);
+    }
     
     anos = diasT / 365;
     meses = diasT % 365 / 30;

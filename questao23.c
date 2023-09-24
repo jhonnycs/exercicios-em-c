@@ -11,6 +11,11 @@ int main() {
 
     printf("Digite a quantidade de refresco a fazer:\n> ");
     scanf("%d", &quantRefresco);
+
+    while (quantRefresco <= 0) {
+        printf("Digite uma quantidade válida de refresco:\n> ");
+        scanf("%d", &quantRefresco);
+    }
     
     float litrosAgua = 0.8 * quantRefresco;
     float litrosSuco = 0.2 * quantRefresco;

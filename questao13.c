@@ -11,8 +11,8 @@ int main() {
     printf("Digite um número inteiro de até 3 dígitos:\n> ");
     scanf("%d", &num);
 
-    while (num > 999 || num < -999) {
-        printf("Por favor, digite um número válido (inteiro até 3 dígitos):\n> ");
+    while (num < -999 || num > 999) {
+        printf("Por favor, digite um número válido (inteiro de até 3 dígitos):\n> ");
         scanf("%d", &num);
     }
     

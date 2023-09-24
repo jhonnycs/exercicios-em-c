@@ -11,6 +11,11 @@ int main() {
 
     printf("Digite o tempo em minutos:\n> ");
     scanf("%f", &tempo);
+
+    while (tempo < 0) {
+        printf("Digite um tempo válido:\n> ");
+        scanf("%f", &tempo);
+    }
     
     int horas = (int)tempo / 60;
     int minutos = (int)tempo % 60;

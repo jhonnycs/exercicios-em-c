@@ -14,6 +14,12 @@ int main() {
 
     printf("Digite o valor em reais:\n> ");
     scanf("%f", &valorReal);
+
+    while (valorReal <= 0) {
+        printf("Digite um valor válido:\n> ");
+        scanf("%f", &valorReal);
+    }
+    
     
     float valorDolar = valorReal / 5.65;
     float valorMarcoAlemao = valorReal / 3.27;

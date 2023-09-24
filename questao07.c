@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define PRECO_QUILO 32
 
 /* 
     Calcular e exibir o preço de um prato montado pelo cliente em um
@@ -7,13 +8,17 @@
 */
 
 int main() {
-    float precoQuilo = 32;
     float peso;
     
     printf("Quanto está pesando seu prato?\n> ");
     scanf("%f", &peso);
 
-    float precoAPagar = precoQuilo * peso;
+    while (peso <= 0) {
+        printf("Digite um peso válido:\n> ");
+        scanf("%f", &peso);
+    }    
+
+    float precoAPagar = PRECO_QUILO * peso;
 
     printf("\nVocê terá que pagar R$ %.2f", precoAPagar);
 

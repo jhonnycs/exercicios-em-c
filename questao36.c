@@ -13,10 +13,28 @@ int main() {
 
     printf("Digite a altura da mala (em centrímetros):\n> ");
     scanf("%f", &altura);
+
+    while (altura <= 0) {
+        printf("Digite uma altura válida:\n> ");
+        scanf("%f", &altura);        
+    }
+    
     printf("Digite o comprimento da mala (em centrímetros):\n> ");
     scanf("%f", &comprimento);
+
+    while (comprimento <= 0) {
+        printf("Digite um comprimento válido:\n> ");
+        scanf("%f", &comprimento);
+    }
+    
     printf("Digite a largura da mala (em centrímetros):\n> ");
     scanf("%f", &largura);
+
+    while (largura <= 0) {
+        printf("Digite uma largura válida:\n> ");
+        scanf("%f", &largura);        
+    }
+    
     
     float perimetro = altura*4 + largura*4 + comprimento*4;
     float perimetroPol = perimetro / pol;

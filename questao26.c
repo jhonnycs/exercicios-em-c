@@ -12,6 +12,11 @@ int main() {
 
     printf("Digite o peso em Kg:\n> ");
     scanf("%f", &pesoKg);
+
+    while (pesoKg <= 0) {
+        printf("Digite um peso válido:\n> ");
+        scanf("%f", &pesoKg);
+    }    
     
     float pesoGramas = pesoKg * 1000;
     float pesoEngordou = pesoKg * 1.15;

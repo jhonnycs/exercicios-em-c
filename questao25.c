@@ -11,8 +11,19 @@ int main() {
 
     printf("Digite o salário fixo do funcionário:\n> ");
     scanf("%f", &salarioFixo);
+
+    while (salarioFixo <= 0) {
+        printf("Digite um salário válido:\n> ");
+        scanf("%f", &salarioFixo);        
+    }
+    
     printf("Digite o valor das vendas do funcionário:\n> ");
     scanf("%f", &valorVendas);
+
+    while (valorVendas < 0) {
+        printf("Digite um valor válido para as vendas:\n> ");
+        scanf("%f", &valorVendas);
+    }    
     
     float comissao = valorVendas * 0.04;
     float salarioFinal = salarioFixo + comissao;

@@ -11,6 +11,11 @@ int main() {
     
     printf("Digite o salário inicial do funcionário:\n> ");
     scanf("%f", &salarioInicial);
+
+    while (salarioInicial <= 0) {
+        printf("Digite um salário válido:\n> ");
+        scanf("%f", &salarioInicial);
+    }
     
     float salarioComAumento = salarioInicial * 1.15;
     float salarioComDesconto = salarioComAumento * 0.92;

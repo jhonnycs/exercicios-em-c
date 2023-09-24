@@ -8,19 +8,24 @@
     quejo, presunto e carne para comprar.
 */
 
+#define QUEIJO 50
+#define PRESUNTO 100
+#define HAMBURGUER 100
+
 int main() {
     int quantSanduiches;
 
     printf("Digite a quantidade de sanduíches para fazer:\n> ");
     scanf("%d", &quantSanduiches);
 
-    float queijo = 50;
-    float presunto = 50;
-    float hamburguer = 100;
+    while (quantSanduiches <= 0) {
+        printf("Digite uma quantidade válida de sanduíches:\n> ");
+        scanf("%d", &quantSanduiches);
+    }
 
-    float totalQueijo = quantSanduiches * queijo * 2 / 1000;
-    float totalPresunto = quantSanduiches * presunto / 1000;
-    float totalHamburguer = quantSanduiches * hamburguer / 1000;
+    float totalQueijo = quantSanduiches * QUEIJO * 2 / 1000;
+    float totalPresunto = quantSanduiches * PRESUNTO / 1000;
+    float totalHamburguer = quantSanduiches * HAMBURGUER / 1000;
 
     printf("\nO total de queijo será %.2f Kg\n", totalQueijo);
     printf("O total de presunto será %.2f Kg\n", totalPresunto);

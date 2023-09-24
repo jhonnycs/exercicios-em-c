@@ -10,8 +10,19 @@ int main() {
 
     printf("Digite a quantidade de blusas:\n> ");
     scanf("%d", &quantBlusas);
+
+    while (quantBlusas <= 0) {
+        printf("Digite uma quantidade válida de blusas:\n> ");
+        scanf("%d", &quantBlusas);
+    }
+
     printf("Digite a quantidade de novelos a serem usados:\n> ");
     scanf("%d", &quantNovelos);
+
+    while (quantNovelos <= 0) {
+        printf("Digite uma quantidade válida de novelos:\n> ");
+        scanf("%d", &quantNovelos);
+    }
 
     float novelosPorBlusa = quantNovelos / (float)quantBlusas;
 
