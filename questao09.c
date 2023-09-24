@@ -1,7 +1,4 @@
 #include <stdio.h>
-#define PRECO_P 10
-#define PRECO_M 12
-#define PRECO_G 15
 
 /* 
     Uma fábrica produz camisetas pequenas, médias e grandes,
@@ -9,6 +6,10 @@
     a quantidade de camisetas vendidas de cada tamanho e o código calculará
     o valor total arrecadado.
 */
+
+#define PRECO_P 10
+#define PRECO_M 12
+#define PRECO_G 15
 
 int main() {
     int quantP, quantM, quantG;

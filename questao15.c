@@ -39,17 +39,14 @@ int main() {
         printf("Digite uma quantidade válida de votos válidos:\n> ");
         scanf("%d", &votosValidos);
     }
+    
+    float porcVotosBrancos = votosBrancos / (float)totalEleitores * 100;
+    float porcVotosNulos = votosNulos / (float)totalEleitores * 100;
+    float porcVotosValidos = votosValidos / (float)totalEleitores * 100;
 
-    if (totalEleitores == 0) {
-        printf("\nNão há eleitores no município");
-    } else {
-        float porcVotosBrancos = votosBrancos / (float)totalEleitores * 100;
-        float porcVotosNulos = votosNulos / (float)totalEleitores * 100;
-        float porcVotosValidos = votosValidos / (float)totalEleitores * 100;
-
-        printf("\n%.1f%% do total de eleitores votou branco;\n", porcVotosBrancos);
-        printf("%.1f%% do total de eleitores votou nulo;\n", porcVotosNulos);
-        printf("%.1f%% do total de eleitores votou branco;\n", porcVotosValidos);
-    }    
+    printf("\n%.1f%% do total de eleitores votou branco;\n", porcVotosBrancos);
+    printf("%.1f%% do total de eleitores votou nulo;\n", porcVotosNulos);
+    printf("%.1f%% dos eleitores votaram válido.\n", porcVotosValidos);
+      
     return 0;
 }

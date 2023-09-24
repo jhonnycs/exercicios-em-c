@@ -1,11 +1,12 @@
 #include <stdio.h>
-#define PRECO_QUILO 32
 
 /* 
     Calcular e exibir o preço de um prato montado pelo cliente em um
     restaurante, sabendo o peso do prato, considerando que o preço do quilo
     é R$ 32.00
 */
+
+#define PRECO_QUILO 32
 
 int main() {
     float peso;

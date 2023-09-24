@@ -32,8 +32,8 @@ int main() {
                             PRECO_BROA * quantBroa;
     float aGuardar = 0.1 * valorArrecadado;
 
-    printf("\nFoi arrecadado um total de %.2f ", valorArrecadado);
-    printf("\nUm total de %.2f será guardado na poupança", aGuardar);
+    printf("\nFoi arrecadado um total de R$ %.2f", valorArrecadado);
+    printf("\nUm total de R$ %.2f será guardado na poupança", aGuardar);
 
     return 0;
 }
