@@ -26,7 +26,7 @@ int main() {
     printf("Digite o número de horas trabalhadas:\n> ");
     scanf("%d", &horasTrabalhadas);
 
-    while (horasTrabalhadas > 0) {
+    while (horasTrabalhadas <= 0) {
         printf("Digite um número válido de horas trabalhadas:\n> ");
         scanf("%d", &horasTrabalhadas);        
     }    
