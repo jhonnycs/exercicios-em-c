@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     S. João recebeu seu salário, mas precisa pagar duas contas que estão

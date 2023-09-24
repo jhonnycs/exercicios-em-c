@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     Receber o ano de nascimento de uma pessoa, e o ano atual.

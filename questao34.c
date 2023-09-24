@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     Converter um dinheiro em reais para dólares, marco alemão e

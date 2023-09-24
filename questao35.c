@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     Converter um tempo dado em minutos para horas, minutos e segundos

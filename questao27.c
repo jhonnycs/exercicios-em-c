@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     calcular a área de um trapézio

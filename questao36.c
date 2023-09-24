@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     Receber a altura, largura e comprimento da bagagem do usuário

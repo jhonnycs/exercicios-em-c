@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /*
     calcular quantos salários mínimos cabem no salário de um funcionário
