@@ -6,9 +6,10 @@
     1 polegada = 2.54cm
 */
 
+#define POL 2.54
+
 int main() {
     float altura, largura, comprimento;
-    int pol = 2.54;
 
     printf("Digite a altura da mala (em centrímetros):\n> ");
     scanf("%f", &altura);
@@ -36,7 +37,7 @@ int main() {
     
     
     float perimetro = altura*4 + largura*4 + comprimento*4;
-    float perimetroPol = perimetro / pol;
+    float perimetroPol = perimetro / POL;
     
     printf("\nO perímetro da mala, em centrímetros, é %.2f cm", perimetro);
     printf("\nO perímetro da mala, em polegadas, é %.2f pol", perimetroPol);
