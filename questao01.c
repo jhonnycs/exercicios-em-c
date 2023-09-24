@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /* 
     Escreva um algoritmo que armazene o valor 10 em uma variável A
     e o valor 20 em uma variável B. A seguir (utilizando apenas

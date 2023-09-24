@@ -1,13 +1,13 @@
 #include <stdio.h>
-#define PRECO_PAO 0.5
-#define PRECO_BROA 1.5
-
 
 /*
     Uma padaria vende pão a R$ 0.50 e broa a R$ 1.50. Busca-se saber quanto foi
     arrecadado com a venda de pães e broas juntas, e quanto será guardado em
     uma conta poupança (10% do total arrecadado)
 */
+
+#define PRECO_PAO 0.5
+#define PRECO_BROA 1.5
 
 int main() {
     int quantPao, quantBroa;
