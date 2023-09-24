@@ -24,9 +24,9 @@ int main() {
     float valorMarcoAlemao = valorReal / 3.27;
     float valorLibra = valorReal / 7.48;
     
-    printf("\nO valor em dólares é R$ %.2f", valorDolar);
-    printf("\nO valor em marco alemão é R$ %.2f", valorMarcoAlemao);
-    printf("\nO valor em libras esterlinas é R$ %.2f", valorLibra);
+    printf("\nO valor em dólares é $ %.2f", valorDolar);
+    printf("\nO valor em marco alemão é DM %.2f", valorMarcoAlemao);
+    printf("\nO valor em libras esterlinas é £ %.2f", valorLibra);
 
     return 0;
 }
